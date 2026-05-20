@@ -35,7 +35,7 @@ int leervotos(int votos[][3])
 {
     int contoyentes = 0;
 
-    printf("Ingrese las votaciones por tríos (Ej: 6 2 1).\n");
+    printf("Ingrese las votaciones por tríos, separados por un espacio.\n");
     printf("Introduzca -1 en el primer dato.\n\n");
 
     while (contoyentes < MAX_OYENTES) 
